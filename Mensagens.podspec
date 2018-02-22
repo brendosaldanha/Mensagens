@@ -59,5 +59,5 @@ TODO: Projeto para aula 3 da Quaddro de exemplo do CocoaPods.
   # s.dependency 'AFNetworking', '~> 2.3'
   
   # Definir a versão do Swfit
-  s.swift_version = '>=4.0'
+  s.swift_version = '4.0'
 end
