@@ -46,15 +46,18 @@ TODO: Projeto para aula 3 da Quaddro de exemplo do CocoaPods.
   # Caminho onde estão as classes que serão compartilhadas no Pod
   s.source_files = 'Mensagens/Classes/**/*'
   
-  # CAMINHO ONDE EST˜AO OS ARQUIVOS DE ASSETS, IMAGENS, JSONS, TEXTOS, ETC...
+  # CAMINHO ONDE ESTÃO OS ARQUIVOS DE ASSETS, IMAGENS, JSONS, TEXTOS, ETC...
   # s.resource_bundles = {
   #   'Mensagens' => ['Mensagens/Assets/*.png']
   # }
 
-  # CAMINHO DOS ARQUIVOS DE HEADER (OBJECTIVE-C) PUBLICOS
+  # CAMINHO DOS ARQUIVOS DE HEADER (OBJECTIVE-C) PÚBLICOS
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # DEFINIR QUAIS FRAMEWORKS DE SISTEMA SEU POD UTILIZA
   # s.frameworks = 'UIKit', 'MapKit'
   # DEFINIR QUAIS PODS DE TERCEIROS SEU POD UTILIZA
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  # Definir a versão do Swfit
+  s.swift_version = '>=4.0'
 end
